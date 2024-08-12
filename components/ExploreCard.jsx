@@ -33,10 +33,10 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
             className="w-1/2 h-1/2 object-contain"
           />
         </div>
-        <p className="font-normal text-[16px] leading-[20.16px] text-white uppercase">
+        <p className="font-normal whitespace-nowrap overflow-hidden text-[16px] leading-[20.16px] text-white uppercase">
           Enter Metaverse
         </p>
-        <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
+        <h2 className="mt-[24px] whitespace-nowrap overflow-hidden font-semibold sm:text-[32px] text-[24px] text-white">
           {title}
         </h2>
       </div>
